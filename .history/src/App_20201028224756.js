@@ -25,13 +25,7 @@ function App() {
         >
           {(state) => <div className={`square blue ${state}`}>{state}</div>}
         </Transition>
-        <CSSTransition
-          in={toggle2}
-          timeout={3000}
-          classNames={"os"}
-          mountOnEnter
-          unmountOnExit
-        >
+        <CSSTransition in={toggle2} timeout={1000}>
           <div className="square orange">{toggle2.toString()}</div>
         </CSSTransition>
       </div>

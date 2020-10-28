@@ -60,28 +60,6 @@ code {
   opacity: 0;
 }
 
-.os.enter.active {
-  opacity: 1;
-  transform: translateY(30px);
-}
-
-.os.enter.done {
-  transform: translateX(0);
-}
-
-os.exit {
-  opacity: 1;
-}
-
-os.exit.active {
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-os.exit.done {
-  opacity: 0;
-}
-
 @keyframes square {
   0% {
     opacity: 0;

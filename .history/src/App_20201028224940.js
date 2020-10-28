@@ -27,7 +27,7 @@ function App() {
         </Transition>
         <CSSTransition
           in={toggle2}
-          timeout={3000}
+          timeout={1000}
           classNames={"os"}
           mountOnEnter
           unmountOnExit
