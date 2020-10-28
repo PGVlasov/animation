@@ -15,8 +15,6 @@ function App() {
   const addItem = () => {
     const title = prompt("Emter item title");
     const id = Date.now();
-
-    setItems(items.concat([{ title, id }]));
   };
 
   return (

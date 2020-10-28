@@ -5,25 +5,11 @@ import { List } from "./List";
 function App() {
   const [toggle, setToggle] = useState(true);
   const [toggle2, setToggle2] = useState(true);
-  const [items, setItems] = useState([
-    { id: 1, title: "Item 1" },
-    { id: 2, title: "Item 2" },
-    { id: 3, title: "Item 3" },
-  ]);
-
-  const removeItems = (id) => setItems(items.filter((i) => i.id !== id));
-  const addItem = () => {
-    const title = prompt("Emter item title");
-    const id = Date.now();
-
-    setItems(items.concat([{ title, id }]));
-  };
 
   return (
     <div className="conteiner">
       <button onClick={() => setToggle(!toggle)}>Toggle</button>
       <button onClick={() => setToggle2(!toggle2)}>Toggle2</button>
-      <button onClick={addItem}>Add Item</button>
       <hr />
       <div className={"blocks"}>
         <Transition
@@ -51,7 +37,7 @@ function App() {
         </CSSTransition>
       </div>
       <div className={"blocks"}>
-        <List items={items} onRemove={removeItems} />
+        <List />
       </div>
     </div>
   );
