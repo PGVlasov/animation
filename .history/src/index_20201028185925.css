@@ -12,11 +12,10 @@ code {
     monospace;
 }
 
-.conteiner {
+.conteinet {
   max-width: 1000px;
   margin: 0 auto;
   padding-top: 3rem;
-  padding: 3rem;
 }
 
 .blocks {
@@ -25,37 +24,4 @@ code {
 
 .blocks div {
   margin-right: 5rem;
-}
-
-.square {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  align-items: center;
-  justify-content: center;
-  animation: square 700ms ease-out forwards;
-}
-
-.square.blue {
-  background: cornflowerblue;
-}
-
-.square.orange {
-  background: coral;
-}
-
-@keyframes square {
-  0% {
-    opacity: 0;
-    transform: translateY(-100px);
-  }
-
-  50% {
-    opacity: 1;
-    transform: translateY(-50px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
 }

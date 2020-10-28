@@ -7,7 +7,7 @@ function App() {
       <button onClick={() => setToggle(!toggle)}>Toggle</button>
       <hr />
       <div className={"blocks"}></div>
-      {toggle && <div className={"square blue"}>{toggle.toString()}</div>}
+      {toggle && <div className={"square blue"}>{toggle}</div>}
     </div>
   );
 }

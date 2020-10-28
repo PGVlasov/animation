@@ -16,7 +16,6 @@ code {
   max-width: 1000px;
   margin: 0 auto;
   padding-top: 3rem;
-  padding: 3rem;
 }
 
 .blocks {
@@ -33,7 +32,6 @@ code {
   height: 200px;
   align-items: center;
   justify-content: center;
-  animation: square 700ms ease-out forwards;
 }
 
 .square.blue {
@@ -56,6 +54,6 @@ code {
   }
 
   100% {
-    transform: translateY(0);
+    transform: translateY(0px);
   }
 }
