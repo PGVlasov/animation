@@ -39,15 +39,6 @@ code {
   animation: square 700ms ease-out forwards;
 }
 
-.square.exiting {
-  animation: square 700ms ease-in alternate-reverse;
-}
-
-.square.exited {
-  opacity: 0;
-  transform: translateY(-100px);
-}
-
 .square.blue {
   background: cornflowerblue;
 }

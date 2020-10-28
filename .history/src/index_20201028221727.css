@@ -44,8 +44,7 @@ code {
 }
 
 .square.exited {
-  opacity: 0;
-  transform: translateY(-100px);
+  animation: square 700ms ease-in alternate-reverse;
 }
 
 .square.blue {

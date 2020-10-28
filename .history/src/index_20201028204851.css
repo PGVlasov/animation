@@ -36,16 +36,11 @@ code {
 }
 
 .square.entering {
-  animation: square 700ms ease-out forwards;
+  animation: square 100ms ease-out forwards;
 }
 
 .square.exiting {
-  animation: square 700ms ease-in alternate-reverse;
-}
-
-.square.exited {
-  opacity: 0;
-  transform: translateY(-100px);
+  animation: square 100ms ease-in alternate-reverse;
 }
 
 .square.blue {
